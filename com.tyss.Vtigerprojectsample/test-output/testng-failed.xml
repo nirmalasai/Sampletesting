@@ -11,8 +11,6 @@
           <include name="logoutFromApp"/>
           <include name="loginToApp"/>
           <include name="lauchTheBrowser"/>
-          <include name="closeDBConn"/>
-          <include name="dbConfig"/>
         </methods>
       </class> <!-- com.tyss.TestScripts.CreateOrganisationTest -->
     </classes>

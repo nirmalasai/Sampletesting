@@ -36,9 +36,11 @@ public class BaseClass {
 	@Parameters("Browser")
 	@BeforeClass(groups= {"regressionTest","smokeTest"})
 	//to launch the browser
-	public void lauchTheBrowser()throws IOException
+	public void lauchTheBrowser(String BROWSER)throws IOException
 	{
-		String BROWSER=fileUtilities.getPropertyValue("browser");
+		//String BROWSER=fileUtilities.getPropertyValue("browser");
+		
+		//String BROWSER=System.getProperty("Browser");
 		String URL=fileUtilities.getPropertyValue("url");
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{

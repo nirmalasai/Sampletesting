@@ -5,6 +5,8 @@ public interface IConstants {
 	String excelPath="./src/test/resources/External.xlsx";
 	String chromeKey="webdriver.chrome.driver";
 	String chromeValue="./src/main/resources/chromedriver.exe";
+	String firefoxKey="webdriver.gecko.driver";
+	String firefoxValue="./src/main/resources/geckodriver.exe";
 	String Durl="jdbc:mysql://localhost:3306/";
 	String DBUsername="root";
 	String DBPassword="root";
